@@ -1,0 +1,11 @@
+Correções a serem feitas no SmallControl
+
+1 - Corrigir o redirecionamento do Ajax. - exemplo: quando clica em cadastrar sem ter preenchido nada ele aparece a mensagem e redireciona pro 404, corrigir isso.
+
+2 - Corrigir problema na exibição da mensagem em alguns casos (ex: quando coloca uma nota não existente no campo de busca do STOCK), outro ex: quando busca uma nota que nao existe no STOCK saída(verificar se acontece nos outros casos)
+
+2.1 - Quando busca por tipo de remessa somente, no orders, nao aparece nenhuma mensagem.
+
+3 - No orders, quando criado dois produtos para a mesma nota fiscal, quando faz a busca aparecem duas vezes a mesma nota na tabela. Onde era para aparecer apenas uma.
+
+3.1 - Ainda no orders quando cria um produto nao aparece mais a modal perguntando se deseja criar outro no mesmo pedido

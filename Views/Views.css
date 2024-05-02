@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+main .container_login{
+    width: 600px;
+    height: auto;
+    padding: 50px 0;
+    background-color: #eeeeee;
+    position: absolute;
+    top: 20%;
+    margin-top: -25px;
+}
+
+main  .log_title{
+    margin: 5px 10% 20px 10%;
+    font-size: 1.4em;
+}
+
+main  h1{
+	margin: 5px 10%;
+}
+
+main .demo{
+	margin: 5px 0%;
+	text-align: center;
+	font-size: 1em;
+	color: #aaa;
+	font-weight: bold;
+}
+
+main  .admin_paragraph{
+	margin: 5px 10%;
+	font-size: 1.5em;
+	padding: 10px 20px;
+	background-color: red;
+	color: #fff;
+	font-weight: bold;
+}
+
+main  .admin_paragraph .admin_link{
+	color: #fff;
+	text-decoration: none;
+}
+
+main .container_login label{
+    margin: 5px 10%;
+    font-weight: 500;
+}
+
+main  .container_login input[type=checkbox]{
+    padding: 10px 20px;
+    margin: 5px 5px 25px 10%;
+    width: 10px;
+    background-color: #ffffff;
+}
+
+main  .container_login input[type=text],
+main  .container_login input[type=email],
+main  .container_login input[type=password]{
+    display: block;
+    padding: 10px 20px;
+    margin: 5px 10% 25px 10%;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+main .container_login button{
+    margin: 5px 10%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #235580;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+main .container_login button:hover{
+    background-color: #09316f;
+    color: #fff;
+}
+
+main .container_login a{
+    color: #555;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+main .container_login #showPass{
+    color: #111;
+    margin-left: 54%;
+    padding: 0 !important;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+@media(max-width: 800px) {
+    main .log_title {
+        margin: 5px 0 20px 0 ;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    main .container_login input[type=checkbox] {
+        padding: 10px 20px;
+        margin: 5px 5px 25px 10%;
+        width: 10px;
+    }
+
+    main .container_login input[type=text],
+    main .container_login input[type=email],
+    main .container_login input[type=password] {
+        display: block;
+        padding: 10px 20px;
+        margin: 5px 10% 25px 10%;
+        width: 80%;
+        background-color: #ffffff;
+    }
+}
+
+@media(max-width: 640px){
+    main .container_login{
+        width: 420px;
+        height: auto;
+        padding: 50px 0;
+        background-color: #eeeeee;
+        position: absolute;
+        top: 15%;
+        margin-top: -25px;
+    }
+
+    main .container_login label{
+        margin: 5px 5px 0 10% ;
+    }
+
+    main .container_login #showPass{
+        color: #111;
+        margin-left: 44%;
+        padding: 0 !important;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+}
+
+/* STATUS DINÂMICOS - AJAX */
+#status-container{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;position:fixed;z-index:999999;pointer-events:none}
+
+.status-title{font-weight:700}
+.status-message{-ms-word-wrap:break-word;word-wrap:break-word;}
+
+.status-message a,.status-message label{color:#FFF}
+.status-message a:hover{color:#CCC;text-decoration:none}
+.status-close-button{position:relative;right:-.3em;top:-.3em;float:right;font-size:20px;font-weight:700;color:#FFF;-webkit-text-shadow:0 1px 0 #fff;text-shadow:0 1px 0 #fff;opacity:.8;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70);filter:alpha(opacity=70);line-height:1}
+.status-close-button:focus,.status-close-button:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.5;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);filter:alpha(opacity=40)}
+
+.rtl .status-close-button{left:-.3em;float:left;right:.3em}
+button.status-close-button{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}
+.status-top-right{top:12px;right:12px}
+
+#status-container>div{position:relative;pointer-events:auto;overflow:hidden;margin:0 0 6px;padding:15px 15px 15px 15px;width:350px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background-position:15px center;background-repeat:no-repeat;-moz-box-shadow:0 0 12px #999;-webkit-box-shadow:0 0 12px #999;box-shadow:0 0 12px #999;color:#FFF;opacity:1.0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);filter:alpha(opacity=40)}
+.status-success{
+    background-color: #247c40;
+}
+
+.status-error{
+    background-color: #d4383a;
+}
+
+.status-info{
+    background-color:#09316f;
+}
+
+.status-warning{
+    background-color: #cc4b0c;
+}
+#voltar-login{
+    padding: 5px;
+}

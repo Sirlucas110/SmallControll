@@ -1,0 +1,162 @@
+/*Cabeçalho*/
+header{width: 100%; height: auto; margin: 0 }
+
+/*Conteúdo da Esquerda - Menu*/
+.content_left{width: 15%; height: auto; margin: 0 ; float: left; 	}
+.content_left .profile{width: 100%; height: auto; margin: 0; display: flex; align-items: center; justify-content: center;}
+.content_left .profile .profile-img{width: 100vw; height: auto; margin: 0 auto; display: flex; flex-direction: row; justify-content: center; align-items: center;}
+.content_left .profile .profile-img img{width: 90px; height: 90px; margin: 10px 0; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; border: 2px solid #217479;}
+
+.content_left .users p{display: block; margin: 0; padding: 5px}
+
+.content_left .navigator{width: 100%; height: auto; padding: 20px 5px; margin: 0;}
+.content_left .navigator li{width: 100%; padding: 8px 16px; margin: 0; text-align: left; border-bottom: 0.5px solid #4A8581}
+.content_left .navigator li a{color: #fff;}
+.content_left .navigator li:hover, .content_left .navigator li a:hover{background-color: #2d1c91;}
+
+/*Conteúdo da Direita - Principal*/
+.content_right {width: 82%; height: auto; margin: 0; float: left;  }
+.content_right img{width:90%; height: auto; margin: 2% 5%;}
+.content_right h1{padding: 1% 0%;}
+.content_right h3{padding: 1% 5%;}
+.content_right p{padding: 1% 5%;}
+.content_right .info{padding: 0% 5%; font-weight: bold;}
+
+.content_right article img{width: 25%; height: 180px; margin: 0% 37.5%}
+.content_right article h1{padding: 2% 2%;}
+.content_right article .cards{padding: 40px 10px;}
+.content_right article .cards .title{font-size: 3em !important;}
+
+.content_right article .active{padding: 2px 4px; background-color: #456150; color: #fff;}
+.content_right article .inactive{padding: 2px 4px; background-color: #d10909; color: #fff;}
+
+.content_right .pesquisa_smart{display:none;}
+.content_right label{padding: 1% 2%; margin: 1% 1%;}
+.content_right input[type=text]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.content_right input[type=password]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.content_right input[type=file]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.content_right input[type=email]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.content_right input[type=date]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.content_right input[type=number]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.content_right input[type=radio]{padding: 1% 0%; margin: 1% 0% 1% 10%;background-color: #eee;}
+.content_right textarea{width:94%; height: 230px; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.content_right select{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.content_right button{padding: 1% 2%; margin: 1% 10%;}
+
+/*Modal*/
+.modal label, .new label, .category label{padding: 1% 2%; margin: 1% 1%;}
+.modal input[type=text], .new input[type=text], .category input[type=text]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.modal input[type=password], .new input[type=password]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.modal input[type=file], .new input[type=file]{width:93%; padding: 1% 1%; height: 30px; margin: 1% 3%; background-color: #eee;}
+.modal input[type=email], .new input[type=email]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.modal input[type=date], .new input[type=date]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.modal input[type=number], .new input[type=number]{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.modal input[type=radio], .new input[type=radio]{padding: 1% 0%; margin: 1% 0% 1% 10%;background-color: #eee;}
+.modal textarea, .new textarea{width:94%; height: 230px; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.modal select, .new select{width:94%; padding: 1% 2%; margin: 1% 3%; background-color: #eee;}
+.modal button, .new button{padding: 1% 2%; margin: 1% 3%;}
+
+/*Entrada de Estoque*/
+.content_right .estoque_input{width:70% !important; padding: 1% 5% !important; margin: 1% 0% 1% 10%!important; background-color: #eee;}
+.content_right .estoque_input_select{width:80% !important; padding: 1% 5% !important; margin: 1% 0% 1% 10%!important; background-color: #eee;}
+.content_right .input_table_estoque{ padding: 2% 5% !important; margin: 1% 5% !important;background-color: #333 !important; width: 80% !important;}
+.content_right .input_table_estoque_menor{ padding: 7% 5% !important; margin: 1% 5% !important;background-color: #333 !important; width: 80% !important;}
+.content_right .input_table_estoque_textarea{ padding: 1% 5% !important; margin: 1% 5% 1% 10% !important;background-color: #eee !important; width: 70% !important;}
+.content_right table{width: 96%; margin: 1% 2%; border: 2px solid #eee !important;}
+.content_right th{padding: 1% 0%;}
+.content_right .texto_impressao{margin: 1% 5%;}
+.content_right .texto_impressao_b{margin: 0% 5%;}
+
+/*Rodapé*/
+footer{width: 100%; height: auto;}
+footer section{width: 80%; height: auto; padding: 2% 10%;}
+.textfooter{
+	overflow:hidden;
+	display:inline-block;
+}
+.textfooter h3{
+	padding: 10px;
+}
+/*Medias Queries - Design Responsivo*/
+@media(max-width: 1700px){
+	.nav_menu ul{margin-top: 18px;}
+	.tableless td{min-width: 120px !important;}
+	.content_left .navigator li{font-size: 0.8em !important;}
+}
+
+@media(max-width: 1500px){
+	.content_left .navigator li{font-size: 0.7em !important;}
+}
+
+@media(max-width: 1100px){
+	.nav_menu ul{margin-top: 18px;}
+	.content_left .navigator li{font-size: 1em !important; text-align: center !important;}
+	.content_left .navigator span{display: none !important;}
+
+	.content_right article img{width: 35%; height: auto; margin: 0% 32%}
+	.content_right .extends{height: 500px;}
+	.content_right .btn_new i,
+	.content_right .btn_new span,{display: none;}
+
+	.content_right .btn_new{padding: 8px 16px !important; margin-right: 5px !important;}
+
+	.content_right #btn_search{display: none !important;}
+	form label{
+		margin-left: 1% !important;
+	}
+	.modal_container select{width: 80% !important; margin-left: 10% !important; margin-right: 10% !important;} 
+	.divisor3 .btn_edit span,{display: none;}
+	.content_left .profile .profile-img img{width: 40px; height: 40px; margin: 10px 0;	
+}
+
+@media(max-width: 860px){
+	.content_right article h1{font-size: 1em;}
+	.nav_menu li a{margin: 0% 0%; padding:0.8% 1.2%; font-size: 1em;}
+	.tableless{width: 100%; overflow: auto;}
+	.modal_container label{padding: 1% 2% !important; margin: 1% 1% !important;}
+	.modal_container select{width: 94% !important; margin-left: 3% !important; margin-right: 3% !important;}
+	footer{text-align: center !important; font-size: 0.7em !important; font-weight: normal !important; margin-left: 0 !important; margin-right: 0 !important;}
+}
+
+@media(max-width: 780px){
+	.nav_logo img{width: 45%; height: auto;  margin:0% 25%;}
+	.content_right article h1{font-size: 1.2em;}
+	.content_right input[type=text]{width:80%; padding: 3% 5%; margin: 1% 10%;}
+	.content_right button{width: 80%; padding: 3% 0%; margin: 1% 10%;}
+	.nav_menu ul{margin-top: 18px;}
+	form label{
+		margin-left: 8% !important;
+	}
+}
+
+@media(max-width: 710px){
+	.nav_menu{height: auto;}	
+	.nav_menu ul{display:none;}
+	.nav_menu li a{display:block; padding: 2% 0%; margin-top: 0px;}
+	.nav_menu li a:hover{color: #fff;}
+	#esconder_menu{display: block;}
+	.content_right article h1{font-size: 1em; padding: 2% 2%;}
+}
+
+@media(max-width: 600px){
+	.content_right article h3{font-size: 0.9em;}
+	.content_right article img{width: 40%; height: auto; margin: 0% 30%}
+	.content_right .extends{height: 450px;}
+	form select{width: 80% !important; padding: 3% 5%; margin: 1% 10% !important;}
+}
+
+@media(max-width: 500px){
+	.content_right article h3{font-size: 0.8em;}
+	.content_right article p{font-size: 0.8em;}
+	.content_right article h1{font-size: 0.9em;}
+	.content_right article img{width: 45%; height: 50%; margin: 0% 27.5%}
+}
+
+@media(max-width: 400px){
+	.content_right article h1{font-size: 0.8em;}
+	footer section h3{font-size: 0.9em !important;}
+}
+
+@media(max-width: 360px){
+	.content_right article img{width: 50%; height: 50%; margin: 0% 25%}
+}
